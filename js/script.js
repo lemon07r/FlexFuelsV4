@@ -87,7 +87,7 @@ function navSticky() {
                 return;
             }
             document.getElementById('mainSection').innerHTML = `<div class="row">
-                <div class="col-md-2 category-list">
+                <div class="col-md-2 category-list things2slide">
                     <ul><li>Filter</li>
 
                     </ul>
@@ -103,7 +103,7 @@ function navSticky() {
             </div>`;
             commerceHelper.changeCategory(0);
             commerceHelper.bold(0);
-            commerceHelper.showProducts(0);
+            //commerceHelper.showProducts(0);
             commerceHelper.showCategories();
 
             for (let item of document.querySelectorAll(".category-list ul li")) {

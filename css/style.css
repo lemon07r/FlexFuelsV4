@@ -187,6 +187,7 @@ body {
     box-shadow: 0 0 0 1px #1c4b82fc;
     position: fixed;
     padding: 1em 1em 1em;
+    width: 10%;
 }
 
 main div div ul {
