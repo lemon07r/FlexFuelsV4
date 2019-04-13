@@ -101,8 +101,8 @@ function navSticky() {
                     </div>
                 </div>
             </div>`;
-            //changeCategory(0);
-            //commerceHelper.bold(0);
+            changeCategory(0);
+            commerceHelper.bold(0);
             commerceHelper.showProducts(0);
             commerceHelper.showCategories();
 
