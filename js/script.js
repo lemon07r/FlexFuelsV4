@@ -359,7 +359,7 @@ function navSticky() {
 
                 console.log(item);
             }
-            ele.style.fontWeight = 'bold';
+            //ele.style.fontWeight = 'bold';
         },
         getCategoryInfo: function (id) {
             let cat = categories.filter(function (cat) {

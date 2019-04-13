@@ -205,6 +205,9 @@ main div div ul a:hover {
     border-radius: 20px 5px;
 }
 
+#mainSection > div > div.col-12.col-md-10 > div > div {
+    padding-bottom: 2vh;
+}
 #mainSection > div > div > ul > li:nth-child(1) {
     font-size: 1.2em;
     color: #dd6b4d;
