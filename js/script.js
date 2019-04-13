@@ -4,6 +4,7 @@ window.onscroll = function () {
 };
 let header = document.getElementById("navBar");
 let sticky = header.offsetTop;
+
 function navSticky() {
     if (window.pageYOffset > sticky) {
         header.classList.add("sticky");
@@ -344,7 +345,7 @@ function navSticky() {
             this.clearProducts();
             this.showProducts(category);
             this.currentCategoryId = category;
-            let cinfo = this.getCategoryInfo(category)
+            let cinfo = this.getCategoryInfo(category);
             $('#mainSection h1').text(cinfo.name);
         },
         clearProducts: function () {
@@ -367,7 +368,7 @@ function navSticky() {
                 if (cat.id == cid) {
                     return cat;
                 }
-            }, id)
+            }, id);
             return cat[0];
         }
     };
@@ -423,16 +424,17 @@ function navSticky() {
             .getElementById('about1')
             .addEventListener('click', function () {
                 pageHelper.clearPage('about');
-                pageHelper.aboutPage('about')
+                pageHelper.aboutPage('about');
                 pageHelper.changePage('about');
             });
         document
             .getElementById('about2')
             .addEventListener('click', function () {
                 pageHelper.clearPage('about');
-                pageHelper.aboutPage('about')
+                pageHelper.aboutPage('about');
                 pageHelper.changePage('about');
             });
     }
+
     window.onload = setupMenuHandlers;
 })();
