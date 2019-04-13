@@ -206,7 +206,7 @@ main div div ul a:hover {
 }
 
 #mainSection > div > div.col-12.col-md-10 > div > div {
-    padding-bottom: 2vh;
+    padding-bottom: 5vw;
 }
 #mainSection > div > div > ul > li:nth-child(1) {
     font-size: 1.2em;
@@ -214,6 +214,9 @@ main div div ul a:hover {
     font-weight: bolder;
 }
 
+#mainSection > div > div.col-md-2.category-list > ul > li {
+    margin: 1em;
+}
 
 #footer {
     margin-top: 0.5rem;
