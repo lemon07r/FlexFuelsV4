@@ -87,7 +87,7 @@ function navSticky() {
                 return;
             }
             document.getElementById('mainSection').innerHTML = `<div class="row">
-                <div class="col-md-2 category-list things2slide">
+                <div class="col-md-2 category-list fader">
                     <ul><li>Filter</li>
 
                     </ul>
@@ -325,7 +325,7 @@ function navSticky() {
             let h = '<div class="d-flex mb-3 product-card col-6 col-lg-4 col-xl-2"><div class="card">' +
                 '  <img class="card-img-top" src="' + product.image + '" alt="Card image cap">' +
                 '  <div class="card-body flex-column d-flex">' +
-                '    <h5 class="card-title"><marquee onmouseover="this.stop();" onmouseout="this.start();">' + product.title + '</marquee></h5>' +
+                '    <h5 class="card-title fader">' + product.title + '</h5>' +
                 '    <p class="card-text">' + product.description + '</p>' +
                 '    <a href="#_" class="btn btn-block btn-primary mt-auto">Buy now for $' + product.price + '</a>' +
                 '  </div>' +

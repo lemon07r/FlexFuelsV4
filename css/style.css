@@ -121,6 +121,12 @@ body {
     animation: slide 2s forwards;
 }
 
+.fader {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    animation: fadein 4s;
+}
+
 #description {
     z-index: 2;
     right: 0;
@@ -187,7 +193,7 @@ body {
     box-shadow: 0 0 0 1px #1c4b82fc;
     position: fixed;
     padding: 1em 1em 1em;
-    width: 10%;
+    width: 15vw;
 }
 
 main div div ul {
