@@ -88,19 +88,21 @@ function navSticky() {
             }
             document.getElementById('mainSection').innerHTML = `<div class="row">
                 <div class="col-md-2 category-list">
-                    <ul>
+                    <ul><li>Filter</li>
 
                     </ul>
                 </div>
                 <div class="col-12 col-md-10">
                     <div class="container-fluid">
+                    <h1></h1>
                         <div class="row product-list">
 
                         </div>
                     </div>
                 </div>
             </div>`;
-
+            //changeCategory(0);
+            //commerceHelper.bold(0);
             commerceHelper.showProducts(0);
             commerceHelper.showCategories();
 
@@ -342,6 +344,8 @@ function navSticky() {
             this.clearProducts();
             this.showProducts(category);
             this.currentCategoryId = category;
+            let cinfo = this.getCategoryInfo(category)
+            $('#mainSection h1').text(cinfo.name);
         },
         clearProducts: function () {
             $('.product-list').html('');
@@ -356,9 +360,16 @@ function navSticky() {
                 console.log(item);
             }
             ele.style.fontWeight = 'bold';
+        },
+        getCategoryInfo: function (id) {
+            let cat = categories.filter(function (cat) {
+                let cid = parseInt(this[0]);
+                if (cat.id == cid) {
+                    return cat;
+                }
+            }, id);
+            return cat[0];
         }
-
-
     };
 
     //Page initialization and menu handlers

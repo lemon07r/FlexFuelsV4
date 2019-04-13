@@ -200,14 +200,15 @@ main div div ul li a {
 main div div ul a:hover {
     text-decoration: none;
     color: #dae1e7;
-    background-color: #183661cc;
+    background-color: #dd6b4d;
     padding: .5em;
     border-radius: 20px 5px;
 }
 
-main div div ul .active {
-    background-color: #dd6b4dcc;
-    border-radius: 10px 30px;
+#mainSection > div > div > ul > li:nth-child(1) {
+    font-size: 1.2em;
+    color: #dd6b4d;
+    font-weight: bolder;
 }
 
 
