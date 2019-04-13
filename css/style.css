@@ -206,6 +206,12 @@ main div div ul a:hover {
     border-radius: 20px 5px;
 }
 
+#mainSection > div > div.col-12.col-md-10 > div > h1 {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    animation: fadein 4s;
+}
+
 #mainSection > div > div.col-12.col-md-10 > div > div {
     padding-bottom: 5vw;
 }
