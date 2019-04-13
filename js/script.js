@@ -363,11 +363,11 @@ function navSticky() {
         },
         getCategoryInfo: function (id) {
             let cat = categories.filter(function (cat) {
-                let cid = parseInt(this[0]);
+                let cid = parseInt(this);
                 if (cat.id == cid) {
                     return cat;
                 }
-            }, id);
+            }, id)
             return cat[0];
         }
     };
