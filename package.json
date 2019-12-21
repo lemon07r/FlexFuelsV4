@@ -1,0 +1,25 @@
+{
+  "name": "flexfuelsv4",
+  "version": "4.2.0",
+  "description": "Bootstrapped",
+  "main": "index.html",
+  "scripts": {
+    "test": "http-server",
+    "start": "terser .\\js\\script.js -o .\\js\\script.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemon07r/FlexFuelsV4.git"
+  },
+  "author": "Lamim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemon07r/FlexFuelsV4/issues"
+  },
+  "homepage": "https://github.com/lemon07r/FlexFuelsV4#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "0.12.0",
+    "terser": "^4.4.3"
+  }
+}
