@@ -1,6 +1,6 @@
 # FlexFuelsV4
 Bootstrapped
 
-Demo: www.flexfuels.xyz
+Demo: https://lemon07r.github.io/FlexFuelsV4/
 
-Demo Mirror: https://stoic-tesla-eb2b53.netlify.app/
+Demo Mirror (Cloudflare pages): https://a622f6c4.flexfuelsv4.pages.dev/
