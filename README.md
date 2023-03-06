@@ -1,5 +1,6 @@
 # FlexFuelsV4
-Bootstrapped
+
+Fake SPA store page made with boostrap, and mostly vanilla CSS and JavaScript.
 
 Demo: https://lemon07r.github.io/FlexFuelsV4/
 
